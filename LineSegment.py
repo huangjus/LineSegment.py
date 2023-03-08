@@ -36,7 +36,7 @@ class Point:
         distance = ((x2-x1)**2 + (y2-y1)**2)**0.5
         return distance
 
-    class LineSegment:
+   class LineSegment:
         """Class representing a line segment between two points"""
 
         def __init__(self, endpoint_1, endpoint_2):
